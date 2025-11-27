@@ -7,14 +7,14 @@ const CasesSection = () => {
     {
       client: "Bazar Elegance",
       category: "E-Commerce",
-      image: "/tw-servicos-digitais/elegance.PNG",
+      image: "/twservi-os/elegance.PNG",
       result: "Vendas",
       description: "E-commerce completo com sistema de catálogo de produtos, carrinho de compras e integração de pagamentos.",
     },
     {
       client: "Clínica Odontológica",
       category: "Sistema Web + CMS",
-      image: "/tw-servicos-digitais/clinicaOdontologica.PNG",
+      image: "/twservi-os/clinicaOdontologica.PNG",
 
       result: "Agendamentos",
       description: "Site institucional com CMS para agendamento de clientes, permitindo gestão eficiente de consultas odontológicas.",
@@ -22,7 +22,7 @@ const CasesSection = () => {
     {
       client: "Canil Zannine",
       category: "Sistema CMS",
-      image: "/tw-servicos-digitais/canilzannine.PNG",
+      image: "/twservi-os/canilzannine.PNG",
       result: "Gestão de Conteúdo",
       description: "Sistema CMS completo para cadastro e gerenciamento de conteúdo do site, incluindo filhotes, galeria e informações.",
     },
