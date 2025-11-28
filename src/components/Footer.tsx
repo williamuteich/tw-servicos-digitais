@@ -38,14 +38,12 @@ const Footer = () => {
         <div className="py-16 lg:py-20">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="lg:col-span-2">
-              <div className="flex items-center gap-2 mb-6">
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center glow-primary-sm">
-                  <span className="text-background font-bold text-xl">TW</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-foreground font-bold text-base leading-tight">TW Soluções</span>
-                  <span className="text-primary text-sm font-medium leading-tight">Digitais</span>
-                </div>
+              <div className="mb-6">
+                <img
+                  src="/logo.jpg"
+                  alt="TW Serviços Digitais"
+                  className="h-16 w-auto object-contain"
+                />
               </div>
               <p className="text-foreground/70 leading-relaxed mb-6 max-w-md">
                 Transformando negócios através de soluções digitais inovadoras. Desenvolvimento web, automação e consultoria especializada para impulsionar seu sucesso online.

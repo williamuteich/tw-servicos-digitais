@@ -36,14 +36,12 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <div className="flex items-center gap-2 cursor-pointer pl-1" onClick={() => scrollToSection("home")}>
-            <div className="w-8 h-8 lg:w-10 lg:h-10 bg-primary rounded-lg flex items-center justify-center glow-primary-sm">
-              <span className="text-background font-bold text-base lg:text-xl">TW</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-foreground font-bold text-sm lg:text-base leading-tight">TW Soluções</span>
-              <span className="text-primary text-xs font-medium leading-tight">Digitais</span>
-            </div>
+          <div className="cursor-pointer" onClick={() => scrollToSection("home")}>
+            <img
+              src="/logo.jpg"
+              alt="TW Serviços Digitais"
+              className="h-14 lg:h-16 w-auto object-contain"
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
