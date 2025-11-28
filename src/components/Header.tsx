@@ -38,7 +38,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <div className="cursor-pointer" onClick={() => scrollToSection("home")}>
             <img
-              src="/logo.jpg"
+              src="/logo.png"
               alt="TW Serviços Digitais"
               className="h-14 lg:h-16 w-auto object-contain"
             />

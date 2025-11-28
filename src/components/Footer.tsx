@@ -40,7 +40,7 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="mb-6">
                 <img
-                  src="/logo.jpg"
+                  src="/logo.png"
                   alt="TW Serviços Digitais"
                   className="h-16 w-auto object-contain"
                 />
