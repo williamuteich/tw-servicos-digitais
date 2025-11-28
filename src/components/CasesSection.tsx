@@ -8,7 +8,7 @@ const CasesSection = () => {
   const cases = [
     {
       client: "Bazar Elegance",
-      category: "E-Commerce",
+      category: "E-Commerce (Loja Online)",
       image: `${pathUrl}elegance.PNG`,
       result: "Vendas",
       description: "E-commerce completo com sistema de catálogo de produtos, carrinho de compras e integração de pagamentos.",
