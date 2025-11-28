@@ -4,7 +4,7 @@ import ScrollAnimation from "./ScrollAnimation";
 
 const ContactSection = () => {
   return (
-    <section id="contato" className="py-16 lg:py-24 bg-background relative overflow-hidden">
+    <section id="contato" className="py-12 lg:py-16 bg-background relative overflow-hidden">
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-glow-pulse"></div>
       </div>
@@ -12,15 +12,15 @@ const ContactSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto">
           <ScrollAnimation>
-            <div className="bg-gradient-to-br from-card via-card to-secondary/30 border border-border rounded-2xl p-8 lg:p-10 text-center shadow-xl shadow-black/5">
+            <div className="bg-gradient-to-br from-card via-card to-secondary/50 border border-border rounded-2xl p-8 lg:p-10 text-center shadow-xl shadow-black/5">
               <div className="max-w-2xl mx-auto space-y-6">
 
                 <div>
-                  <h2 className="text-2xl lg:text-4xl font-bold text-foreground mb-3">
+                  <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
                     Vamos iniciar seu projeto?
                   </h2>
                   <p className="text-base text-foreground/80 max-w-xl mx-auto leading-relaxed">
-                    Agende uma <span className="font-semibold text-primary">consultoria gratuita</span> e descubra a melhor solução para o seu negócio.
+                    Solicite um <span className="font-semibold text-primary">orçamento gratuito</span> e descubra a melhor solução para o seu negócio.
                   </p>
                 </div>
 
@@ -28,11 +28,11 @@ const ContactSection = () => {
                   <Button
                     variant="whatsapp"
                     size="lg"
-                    onClick={() => window.open("https://wa.me/5551981302801?text=Olá! Quero agendar minha consultoria gratuita.", "_blank")}
+                    onClick={() => window.open("https://wa.me/5551981302801?text=Olá! Quero solicitar um orçamento gratuito.", "_blank")}
                     className="w-full sm:w-auto"
                   >
                     <MessageSquare className="mr-2 w-5 h-5" />
-                    Agendar Consultoria Gratuita
+                    Solicitar Orçamento Gratuito
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </div>

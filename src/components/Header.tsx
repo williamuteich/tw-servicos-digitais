@@ -36,9 +36,9 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("home")}>
+          <div className="flex items-center gap-2 cursor-pointer pl-1" onClick={() => scrollToSection("home")}>
             <div className="w-8 h-8 lg:w-10 lg:h-10 bg-primary rounded-lg flex items-center justify-center glow-primary-sm">
-              <span className="text-background font-bold text-lg lg:text-xl">TW</span>
+              <span className="text-background font-bold text-base lg:text-xl">TW</span>
             </div>
             <div className="flex flex-col">
               <span className="text-foreground font-bold text-sm lg:text-base leading-tight">TW Soluções</span>
@@ -76,13 +76,14 @@ const Header = () => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-background/98 backdrop-blur-md border-b border-border shadow-lg animate-fade-in">
-            <nav className="flex flex-col py-4 px-4 gap-2">
+          <div className="md:hidden fixed inset-0 top-16 z-40 bg-background h-[calc(100vh-4rem)] animate-fade-in flex flex-col border-t border-border/50 overflow-y-auto">
+            <div className="absolute inset-0 geometric-pattern opacity-5 pointer-events-none"></div>
+            <nav className="flex flex-col items-center justify-center h-full gap-8 relative z-10 p-8">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-foreground/80 hover:text-primary hover:bg-secondary/50 transition-all py-3 px-4 rounded-lg text-left font-medium"
+                  className="text-foreground/80 hover:text-primary text-xl font-bold transition-colors"
                 >
                   {item.label}
                 </button>
@@ -90,7 +91,7 @@ const Header = () => {
               <Button
                 variant="whatsapp"
                 size="lg"
-                className="mt-4"
+                className="mt-4 w-full max-w-xs"
                 onClick={() => window.open("https://wa.me/5551981302801", "_blank")}
               >
                 Fale Conosco no WhatsApp

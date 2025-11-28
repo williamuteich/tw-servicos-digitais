@@ -37,7 +37,7 @@ const AboutSection = () => {
               <span className="inline-block px-5 py-2.5 bg-gradient-to-r from-primary/15 via-primary/10 to-primary/15 text-primary rounded-full text-sm font-semibold mb-6 border border-primary/20 shadow-lg shadow-primary/5">
                 Sobre Nós
               </span>
-              <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
+              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
                 Transformação Digital com
                 <span className="text-gradient-primary"> Excelência</span>
               </h2>
@@ -47,7 +47,7 @@ const AboutSection = () => {
             </div>
           </ScrollAnimation>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {features.map((feature, index) => (
               <ScrollAnimation key={index} delay={index * 0.05} animation="fade-in">
                 <div
@@ -70,7 +70,7 @@ const AboutSection = () => {
           </div>
 
           <ScrollAnimation delay={0.4}>
-            <div className="mt-16 text-center">
+            <div className="mt-8 text-center">
               <div className="inline-block p-8 bg-gradient-to-br from-card/90 via-card/80 to-secondary/30 backdrop-blur-md border border-primary/20 rounded-2xl max-w-2xl shadow-2xl shadow-primary/5 hover:shadow-primary/10 transition-shadow duration-500 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
                 <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>

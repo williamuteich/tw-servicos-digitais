@@ -38,7 +38,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id="servicos" className="py-20 lg:py-28 bg-secondary/30">
+    <section id="servicos" className="py-20 lg:py-28 bg-secondary/50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="text-center max-w-2xl mx-auto mb-12">
@@ -84,15 +84,15 @@ const ServicesSection = () => {
                 Não sabe por onde começar?
               </h3>
               <p className="text-foreground/70 mb-5 text-sm">
-                Agende uma <span className="font-semibold text-primary">consultoria gratuita</span> e descubra a melhor solução.
+                Solicite um <span className="font-semibold text-primary">orçamento gratuito</span> e descubra a melhor solução.
               </p>
               <Button
                 variant="whatsapp"
                 size="lg"
-                onClick={() => window.open("https://wa.me/5551981302801?text=Olá! Quero agendar uma consultoria gratuita.", "_blank")}
+                onClick={() => window.open("https://wa.me/5551981302801?text=Olá! Quero solicitar um orçamento gratuito.", "_blank")}
               >
                 <MessageSquare className="mr-2 w-5 h-5" />
-                Agendar Consultoria Gratuita
+                Solicitar Orçamento Gratuito
               </Button>
             </div>
           </div>

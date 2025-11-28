@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 mt-4">
                 <MessageSquare className="w-5 h-5 text-primary" />
-                <a href="https://wa.me/5551981302801" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-primary transition-colors">
+                <a href="https://wa.me/5551996615024" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-primary transition-colors">
                   (51) 99661-5024
                 </a>
               </div>

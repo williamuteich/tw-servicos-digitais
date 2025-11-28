@@ -39,16 +39,15 @@ const ProcessSection = () => {
     <section className="py-20 lg:py-32 bg-gradient-dark relative overflow-hidden">
       <div className="absolute inset-0 geometric-pattern opacity-20"></div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-6 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
               <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
                 Nosso Processo
               </span>
-              <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
-                Do Planejamento à
-                <span className="text-gradient-primary"> Entrega Perfeita</span>
+              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
+                Como <span className="text-gradient-primary">Trabalhamos</span>
               </h2>
               <p className="text-lg text-foreground/70 max-w-3xl mx-auto">
                 Metodologia testada e aprovada para garantir resultados excepcionais em cada etapa
@@ -62,7 +61,7 @@ const ProcessSection = () => {
                 <div className="h-full w-full bg-gradient-to-r from-primary via-primary/50 to-primary animate-line-glow"></div>
               </div>
             </ScrollAnimation>
-            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-4 items-stretch">
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4 items-stretch">
               {steps.map((step, index) => (
                 <ScrollAnimation key={index} delay={index * 0.15} className="relative group h-full">
                   <div className="h-full">
@@ -71,7 +70,7 @@ const ProcessSection = () => {
                     )}
 
                     <div className="relative bg-gradient-to-br from-card via-card to-secondary/20 border border-border rounded-2xl p-6 hover:border-border/60 transition-all duration-300 hover:shadow-2xl hover:shadow-black/10 hover:-translate-y-1 z-10 h-full flex flex-col">
-                      <div className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center font-bold text-background shadow-lg">
+                      <div className="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center font-bold text-background shadow-lg">
                         {step.number}
                       </div>
                       <div className="w-16 h-16 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform mx-auto">

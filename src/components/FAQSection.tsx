@@ -43,7 +43,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 lg:py-32 bg-gradient-dark relative overflow-hidden">
+    <section id="faq" className="py-20 lg:py-32 bg-secondary/50 relative overflow-hidden">
       <div className="absolute inset-0 geometric-pattern opacity-10"></div>
       <div className="absolute top-0 right-1/4 w-1/2 h-1/2 bg-primary/8 blur-3xl rounded-full"></div>
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-purple-500/8 blur-3xl rounded-full"></div>
@@ -55,9 +55,8 @@ const FAQSection = () => {
               <span className="inline-block px-5 py-2.5 bg-gradient-to-r from-primary/15 via-primary/10 to-primary/15 text-primary rounded-full text-sm font-semibold mb-6 border border-primary/20 shadow-lg shadow-primary/5">
                 FAQ
               </span>
-              <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
-                Perguntas
-                <span className="text-gradient-primary"> Frequentes</span>
+              <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
+                Dúvidas <span className="text-gradient-primary">Frequentes</span>
               </h2>
               <p className="text-lg text-foreground/70 leading-relaxed">
                 Tire suas dúvidas sobre nossos serviços e processo de trabalho
@@ -66,7 +65,7 @@ const FAQSection = () => {
           </ScrollAnimation>
 
           <ScrollAnimation delay={0.2}>
-            <Accordion type="single" collapsible className="space-y-5">
+            <Accordion type="single" collapsible className="flex flex-col gap-4">
               {faqs.map((faq, index) => (
                 <AccordionItem
                   key={index}
@@ -85,23 +84,6 @@ const FAQSection = () => {
                 </AccordionItem>
               ))}
             </Accordion>
-          </ScrollAnimation>
-
-          <ScrollAnimation delay={0.4}>
-            <div className="mt-16 text-center">
-              <div className="inline-block p-8 bg-gradient-to-br from-card/90 via-card/80 to-secondary/30 backdrop-blur-md border border-primary/20 rounded-2xl shadow-xl shadow-primary/10 hover:shadow-primary/20 transition-shadow duration-500 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
-                <div className="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
-
-                <p className="text-foreground/80 mb-5 text-lg relative z-10">Não encontrou sua dúvida?</p>
-                <button
-                  onClick={() => window.open("https://wa.me/5551981302801?text=Olá! Tenho uma dúvida sobre os serviços.", "_blank")}
-                  className="text-primary hover:text-primary/80 font-bold text-lg underline underline-offset-4 transition-all duration-300 hover:scale-105 inline-block relative z-10"
-                >
-                  Fale conosco no WhatsApp →
-                </button>
-              </div>
-            </div>
           </ScrollAnimation>
         </div>
       </div>

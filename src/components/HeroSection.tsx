@@ -14,9 +14,9 @@ const HeroSection = () => {
       <div className="absolute inset-0 geometric-pattern opacity-50"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-5xl mx-auto text-center space-y-6 pt-10 pb-6">
+        <div className="max-w-5xl mx-auto text-center space-y-6 pt-24 lg:pt-32 pb-6">
 
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground leading-tight animate-fade-in-down">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight animate-fade-in-down">
             Transforme Seu Negócio com
             <span className="text-gradient-primary block mt-2 p-4">Soluções Digitais</span>
           </h1>
@@ -30,10 +30,10 @@ const HeroSection = () => {
             <Button
               variant="whatsapp"
               size="xl"
-              onClick={() => window.open("https://wa.me/5551981302801?text=Olá! Quero agendar uma consultoria gratuita.", "_blank")}
+              onClick={() => window.open("https://wa.me/5551981302801?text=Olá! Quero solicitar um orçamento gratuito.", "_blank")}
               className="w-full sm:w-auto"
             >
-              Consultoria Gratuita
+              Orçamento Gratuito
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button
@@ -46,8 +46,8 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16 max-w-4xl mx-auto">
-            <div className="p-6 rounded-2xl bg-secondary/30 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-slide-in-left" style={{ animationDelay: "0.6s" }}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-16 max-w-4xl mx-auto">
+            <div className="p-6 rounded-2xl bg-secondary/50 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-slide-in-left" style={{ animationDelay: "0.6s" }}>
               <h2 className="text-lg font-semibold text-foreground mb-2">Desenvolvimento Web</h2>
               <p className="text-sm text-foreground/70">Sites de alta performance e sistemas web sob medida para seu negócio.</p>
             </div>

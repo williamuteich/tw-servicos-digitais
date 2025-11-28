@@ -40,7 +40,7 @@ const CasesSection = () => {
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4">
               Cases de Sucesso
             </span>
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
               Resultados Reais
             </h2>
             <p className="text-base text-foreground/70 max-w-2xl mx-auto">
@@ -49,11 +49,11 @@ const CasesSection = () => {
           </div>
         </ScrollAnimation>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-4 max-w-5xl mx-auto">
           {cases.map((item, index) => (
             <ScrollAnimation key={index} delay={index * 0.1}>
               <div
-                className="group relative aspect-video rounded-2xl overflow-hidden border border-border/50 bg-secondary/30 cursor-pointer"
+                className="group relative aspect-video rounded-2xl overflow-hidden border border-border/50 bg-secondary/50 cursor-pointer"
                 onClick={() => window.open(`https://wa.me/5551981302801?text=Olá! Gostaria de saber mais sobre o case ${item.client}.`, "_blank")}
               >
                 <img

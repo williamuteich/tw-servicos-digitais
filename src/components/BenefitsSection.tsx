@@ -34,7 +34,7 @@ const BenefitsSection = () => {
       <div className="absolute bottom-0 right-0 w-1/2 h-2/3 bg-gradient-to-tl from-primary/10 via-primary/5 to-transparent blur-3xl"></div>
       <div className="absolute top-0 left-0 w-1/3 h-1/2 bg-gradient-to-br from-purple-500/8 to-transparent blur-3xl"></div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-6 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-6xl mx-auto">
           <ScrollAnimation>
             <div className="text-center mb-16">
@@ -51,7 +51,7 @@ const BenefitsSection = () => {
             </div>
           </ScrollAnimation>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-4">
             {benefits.map((benefit, index) => (
               <ScrollAnimation key={index} delay={index * 0.1}>
                 <div
