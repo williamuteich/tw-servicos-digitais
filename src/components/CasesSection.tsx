@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import ScrollAnimation from "./ScrollAnimation";
 import { Button } from "./ui/button";
 
-const pathUrl = "/tw-servicos-digitais/";
+const pathUrl = "/";
 
 const CasesSection = () => {
   const cases = [
