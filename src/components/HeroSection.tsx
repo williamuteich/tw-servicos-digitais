@@ -22,8 +22,8 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg sm:text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed animate-slide-in-left" style={{ animationDelay: "0.2s" }}>
-            Sites, sistemas e automação para alavancar sua empresa.
-            Agende uma <span className="font-semibold text-primary">consultoria gratuita</span> e descubra as melhores soluções para você.
+            Especialistas em <strong>criação de sites</strong>, <strong>lojas virtuais</strong> e automação para alavancar sua empresa.
+            Agende uma <span className="font-semibold text-primary">consultoria gratuita</span> e descubra quanto custa ter um site profissional.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
@@ -46,18 +46,17 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Professional Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-16 max-w-4xl mx-auto">
             <div className="p-6 rounded-2xl bg-secondary/30 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-slide-in-left" style={{ animationDelay: "0.6s" }}>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Desenvolvimento Web</h3>
+              <h2 className="text-lg font-semibold text-foreground mb-2">Desenvolvimento Web</h2>
               <p className="text-sm text-foreground/70">Sites de alta performance e sistemas web sob medida para seu negócio.</p>
             </div>
             <div className="p-6 rounded-2xl bg-secondary/30 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Automação Inteligente</h3>
+              <h2 className="text-lg font-semibold text-foreground mb-2">Automação Inteligente</h2>
               <p className="text-sm text-foreground/70">Otimize processos e reduza custos com soluções automatizadas.</p>
             </div>
             <div className="p-6 rounded-2xl bg-secondary/30 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-slide-in-right" style={{ animationDelay: "0.8s" }}>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Consultoria Digital</h3>
+              <h2 className="text-lg font-semibold text-foreground mb-2">Consultoria Digital</h2>
               <p className="text-sm text-foreground/70">Estratégias personalizadas para acelerar sua transformação digital.</p>
             </div>
           </div>

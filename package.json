@@ -1,6 +1,6 @@
 {
-  "name": "twservi-os",
-  "homepage": "https://Thalinhos.github.io/twservi-os/",
+  "name": "tw-servicos-digitais",
+  "homepage": "https://williamuteich.github.io/tw-servicos-digitais/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

@@ -7,12 +7,12 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Code,
-      title: "Sites & Landing Pages",
+      title: "Criação de Sites & Landing Pages",
       description: "Presença digital profissional para seu negócio."
     },
     {
       icon: ShoppingCart,
-      title: "E-Commerce",
+      title: "Criação de Loja Virtual (E-Commerce)",
       description: "Loja virtual completa e integrada."
     },
     {
@@ -65,9 +65,9 @@ const ServicesSection = () => {
                     <div className="w-12 h-12 bg-gradient-to-br from-primary/15 to-primary/5 rounded-lg flex items-center justify-center mb-3 group-hover:scale-105 transition-transform">
                       <Icon className="w-6 h-6 text-primary" />
                     </div>
-                    <h4 className="text-lg font-bold text-foreground mb-2">
+                    <h3 className="text-lg font-bold text-foreground mb-2">
                       {service.title}
-                    </h4>
+                    </h3>
                     <p className="text-sm text-foreground/70 flex-grow leading-relaxed">
                       {service.description}
                     </p>

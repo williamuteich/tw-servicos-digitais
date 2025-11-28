@@ -2,19 +2,21 @@ import { ArrowRight } from "lucide-react";
 import ScrollAnimation from "./ScrollAnimation";
 import { Button } from "./ui/button";
 
+const pathUrl = "/tw-servicos-digitais/";
+
 const CasesSection = () => {
   const cases = [
     {
       client: "Bazar Elegance",
       category: "E-Commerce",
-      image: "/twservi-os/elegance.PNG",
+      image: `${pathUrl}elegance.PNG`,
       result: "Vendas",
       description: "E-commerce completo com sistema de catálogo de produtos, carrinho de compras e integração de pagamentos.",
     },
     {
       client: "Clínica Odontológica",
       category: "Sistema Web + CMS",
-      image: "/twservi-os/clinicaOdontologica.PNG",
+      image: `${pathUrl}clinicaOdontologica.PNG`,
 
       result: "Agendamentos",
       description: "Site institucional com CMS para agendamento de clientes, permitindo gestão eficiente de consultas odontológicas.",
@@ -22,7 +24,7 @@ const CasesSection = () => {
     {
       client: "Canil Zannine",
       category: "Sistema CMS",
-      image: "/twservi-os/canilzannine.PNG",
+      image: `${pathUrl}canilzannine.PNG`,
       result: "Gestão de Conteúdo",
       description: "Sistema CMS completo para cadastro e gerenciamento de conteúdo do site, incluindo filhotes, galeria e informações.",
     },
@@ -57,6 +59,7 @@ const CasesSection = () => {
                 <img
                   src={item.image}
                   alt={item.client}
+                  loading="lazy"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
 
