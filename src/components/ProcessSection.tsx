@@ -36,7 +36,7 @@ const ProcessSection = () => {
   ];
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-dark relative overflow-hidden">
+    <section id="processo" className="py-20 lg:py-32 bg-gradient-dark relative overflow-hidden">
       <div className="absolute inset-0 geometric-pattern opacity-20"></div>
 
       <div className="container mx-auto px-6 sm:px-6 lg:px-8 relative z-10">

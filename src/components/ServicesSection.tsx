@@ -8,32 +8,32 @@ const ServicesSection = () => {
     {
       icon: Code,
       title: "Criação de Sites & Landing Pages",
-      description: "Presença digital profissional para seu negócio."
+      description: "Páginas que convertem visitantes em clientes e fortalecem sua marca."
     },
     {
       icon: ShoppingCart,
-      title: "Criação de Loja Virtual (E-Commerce)",
-      description: "Loja virtual completa e integrada."
+      title: "Loja Virtual Completa",
+      description: "Venda online 24h por dia, mesmo enquanto você dorme."
     },
     {
       icon: Smartphone,
-      title: "Sistemas Personalizados",
-      description: "Soluções sob medida para sua empresa."
+      title: "Sistemas Sob Medida",
+      description: "Plataformas personalizadas para gerenciar seu negócio com facilidade."
     },
     {
       icon: MessageSquare,
-      title: "Automação & Integrações",
-      description: "WhatsApp, APIs e processos automatizados."
+      title: "Automação Inteligente",
+      description: "Conecte WhatsApp, receba pedidos automaticamente e economize tempo."
     },
     {
       icon: BarChart3,
       title: "Consultoria Digital",
-      description: "Performance, SEO e otimização de conversão."
+      description: "Apareça no Google, aumente vendas e atraia mais clientes."
     },
     {
       icon: Palette,
-      title: "Identidade Visual",
-      description: "Branding e design profissional."
+      title: "Logo & Identidade Visual",
+      description: "Crie uma marca memorável que seus clientes vão reconhecer."
     }
   ];
 

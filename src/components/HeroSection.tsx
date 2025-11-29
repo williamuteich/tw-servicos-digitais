@@ -23,7 +23,7 @@ const HeroSection = () => {
 
           <p className="text-lg sm:text-xl text-foreground/80 max-w-3xl mx-auto leading-relaxed animate-slide-in-left" style={{ animationDelay: "0.2s" }}>
             Especialistas em <strong>criação de sites</strong>, <strong>lojas virtuais</strong> e automação para alavancar sua empresa.
-            Agende uma <span className="font-semibold text-primary">consultoria gratuita</span> e descubra quanto custa ter um site profissional.
+            Solicite um <span className="font-semibold text-primary">orçamento gratuito</span> e descubra quanto custa ter um site profissional.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
@@ -48,16 +48,16 @@ const HeroSection = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-16 max-w-4xl mx-auto">
             <div className="p-6 rounded-2xl bg-secondary/50 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-slide-in-left" style={{ animationDelay: "0.6s" }}>
-              <h2 className="text-lg font-semibold text-foreground mb-2">Desenvolvimento Web</h2>
-              <p className="text-sm text-foreground/70">Sites de alta performance e sistemas web sob medida para seu negócio.</p>
+              <h2 className="text-lg font-semibold text-foreground mb-2">Sites que Vendem</h2>
+              <p className="text-sm text-foreground/70">Converta visitantes em clientes com páginas otimizadas para resultados.</p>
             </div>
             <div className="p-6 rounded-2xl bg-secondary/30 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
-              <h2 className="text-lg font-semibold text-foreground mb-2">Automação Inteligente</h2>
-              <p className="text-sm text-foreground/70">Otimize processos e reduza custos com soluções automatizadas.</p>
+              <h2 className="text-lg font-semibold text-foreground mb-2">Automação que Funciona</h2>
+              <p className="text-sm text-foreground/70">Economize tempo com processos automatizados e inteligentes.</p>
             </div>
             <div className="p-6 rounded-2xl bg-secondary/30 backdrop-blur-sm border border-border/50 hover:border-primary/20 transition-colors animate-slide-in-right" style={{ animationDelay: "0.8s" }}>
-              <h2 className="text-lg font-semibold text-foreground mb-2">Consultoria Digital</h2>
-              <p className="text-sm text-foreground/70">Estratégias personalizadas para acelerar sua transformação digital.</p>
+              <h2 className="text-lg font-semibold text-foreground mb-2">Resultados Reais</h2>
+              <p className="text-sm text-foreground/70">Estratégias que aumentam suas vendas e fortalecem sua presença online.</p>
             </div>
           </div>
         </div>
