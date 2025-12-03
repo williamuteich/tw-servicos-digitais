@@ -20,7 +20,8 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: MessageSquare, href: "https://wa.me/5551981302801", label: "WhatsApp" },
-    { icon: Instagram, href: "https://instagram.com/twsolucoes", label: "Instagram" }
+    // Temporariamente desativado - ativar quando Instagram estiver pronto
+    // { icon: Instagram, href: "https://www.instagram.com/twservicosdigitais/", label: "Instagram" }
   ];
 
   const scrollToSection = (id: string) => {
